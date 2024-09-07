@@ -1,0 +1,123 @@
+/*discord wordmark*/
+.wordmark_a934d8 path {
+    display: none !important;
+}
+
+.theme-dark .wordmark_a934d8::before {
+    content: "‏‏‎ C A S P A N A T A";
+    font-size: 12px;
+    font-family: "Poiret one" !important;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 7px 11px 7px 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+}
+
+.wordmark_a934d8:hover:before {
+    content: "‏‏‎ C A S P A N A T A";
+    letter-spacing: 2px;
+}
+
+/*custom new unreads*/
+.bar_eba0ba {
+    padding: 14px 50px;
+}
+
+.newMessagesBar_cf58b5.barBase_cf58b5 {
+    margin-left: auto;
+    margin-top: auto;
+    align-self: flex-end;
+    justify-self: flex-end !important;
+    position: absolute !important;
+    z-index: 998;
+    bottom: 78px;
+    right: 22px;
+    padding: 8px 8px !important;
+    width: 25.5px;
+    height: 20px;
+    background-color: var(--brand-experiment);
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    animation: pop 0.2s ease-in;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+    opacity: 1;
+}
+
+.newMessagesBar_cf58b5.barBase_cf58b5:hover {
+    padding: 8px 18px !important;
+    width: 105px;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+}
+
+/*custom CASPANATA theme card*/
+#CASPANATA-card .bd-name {
+    font-size: 100px;
+    text-align: left;
+}
+
+#CASPANATA-card .bd-name::after {
+    font-size: 20px;
+    content: "activated";
+    display: block;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+.theme-dark #CASPANATA-card .bd-meta {
+    margin-left: 15px;
+    bottom: 25px;
+    color: rgb(226, 226, 226);
+}
+
+#CASPANATA-card {
+    border: 2px solid var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2);
+}
+
+#CASPANATA-card .bd-addon-header {
+    border-bottom: 2px solid var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2);
+}
+
+#CASPANATA-card > *:not(#a#B) {
+    background: rgba(var(--accentcolor), .2) !important;
+}
+
+#CASPANATA-card .bd-description {
+    display: none;
+}
+
+.theme-dark #CASPANATA-card [href='https\:\/\/github.com/warrayquipsome/CASPANATA'] {
+    color: #fff !important;
+}
+
+/*twitter like forum*/
+.list-3FIpnh > div:first-child {
+    width: 600px;
+}
+
+.theme-dark .bd-grid-view #CASPANATA-card .bd-name {
+    font-size: 70px;
+    text-align: left;
+}
+
+.bd-grid-view #CASPANATA-card .bd-name::after {
+    font-size: 20px;
+    content: "activated";
+    display: block;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.theme-dark .bd-grid-view #CASPANATA-card .bd-meta {
+    margin-left: -50px;
+    bottom: 25px;
+    color: rgb(226, 226, 226);
+}
